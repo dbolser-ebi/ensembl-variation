@@ -520,7 +520,7 @@ CREATE TABLE genotype_code (
 
 CREATE TABLE seq_region (
 
-  seq_region_id               INT(10) UNSIGNED NOT NULL,
+  seq_region_id               INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
   name                        VARCHAR(40) NOT NULL,
   coord_system_id             INT(10) UNSIGNED NOT NULL,
 
